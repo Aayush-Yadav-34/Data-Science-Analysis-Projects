@@ -10,7 +10,7 @@ Each subdirectory is organized by project topic and contains a Jupyter Notebook,
 
 | ID | Topic | Analysis Focus | Status | Folder |
 | :---: | :--- | :--- | :---: | :---: |
-| **A-02** | **Data Frames & Data Pre-processing** | Reading data from multiple formats (CSV, JSON, SQL) and manipulation fundamentals. | ✅ Completed | [Data Frames and Basic Data Pre-processing/](./Data Frames and Basic Data Pre-processing/README.md) |
+| **A-02** | **Data Frames & Data Pre-processing** | Reading data from multiple formats (CSV, JSON, SQL) and manipulation fundamentals. | ✅ Completed | [Data Frames and Basic Data Pre-processing](./Data%20%Frames%20%and%20%Basic%20%Data%20%Pre-processing/README.md) |
 | **A-03** | **Feature Scaling & Dummification** | Feature scaling (Standardization, Normalization) and Categorical Encoding (One-Hot, Ordinal). | ✅ Completed | [Feature Scaling and Dummification](./Feature%20Scaling%20and%20Dummification/README.md) |
 
 ---
