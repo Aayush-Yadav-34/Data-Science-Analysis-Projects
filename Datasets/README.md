@@ -9,3 +9,4 @@ These are free, publicly available datasets (e.g., from Kaggle or public reposit
 | `people.json` | Simulated person data (Used for JSON loading demonstration). |
 | `Covid Dashboard.xlsx` | Simulated COVID-19 data (Used for Excel loading demonstration). |
 | `sqlite-sakila.db` | Sample SQL database (Used for database query demonstration). |
+| `bank.csv` | Bank Marketing Data (Used for Feature Scaling and Dummification). |
