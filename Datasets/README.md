@@ -10,3 +10,5 @@ These are free, publicly available datasets (e.g., from Kaggle or public reposit
 | `Covid Dashboard.xlsx` | Simulated COVID-19 data (Used for Excel loading demonstration). |
 | `sqlite-sakila.db` | Sample SQL database (Used for database query demonstration). |
 | `bank.csv` | Bank Marketing Data (Used for Feature Scaling and Dummification). |
+| `finance_economics_dataset.csv` | Financial & Economic Indicators (Used for Principal Component Analysis). |
+| `Churn_Modelling.csv` | Customer Churn Data (Used for Logistic Regression & Decision Tree). |

@@ -3,33 +3,38 @@
 [View the Notebook: Principal Component Analysis (PCA).ipynb](./Principal%20Component%20Analysis%20(PCA).ipynb)
 
 ## Project Focus
-The goal of this analysis was to implement dimensionality reduction techniques to simplify complex datasets while retaining essential information.
+The goal of this analysis was to implement dimensionality reduction techniques to simplify complex financial datasets while retaining essential information.
 
-* **Perform PCA** to reduce the number of features in a dataset.
-* **Evaluate Explained Variance** to determine the appropriate number of principal components to retain.
-* **Handle Non-Linear Data** using Kernel PCA methods.
-* **Maximize Class Separability** using Linear Discriminant Analysis (LDA) for supervised dimensionality reduction.
+* **Perform PCA** to reduce the number of features in the dataset.
+* **Evaluate Explained Variance** to automatically determine the optimal number of principal components.
+* **Handle Non-Linear Data** using Kernel PCA methods on specific price metrics.
+* **Maximize Class Separability** using Linear Discriminant Analysis (LDA) with stock index targets.
+* **Visualize** the impact of dimensionality reduction on data distribution.
 
 ---
 
 ## 📝 Analysis Content Summary
 
-The notebook covers three distinct approaches to feature reduction:
+The notebook covers four distinct operations:
 
 ### 1. Standard Principal Component Analysis (PCA)
-* **Standardization:** Applied `StandardScaler` to normalize the feature set before analysis.
-* **Variance Retention:** Configured PCA to retain 99% of the variance, automatically selecting the necessary number of components (reducing 11 features to 10 in the example).
+* **Data Prep:** Dropped non-numeric columns ('Date', 'Stock Index') and applied `StandardScaler` to normalize the remaining financial indicators.
+* **Variance Retention:** Configured PCA to retain 99% of the variance, which successfully reduced the dataset dimensionality from **22 features to 19 principal components**.
 
 ### 2. Kernel PCA for Linearly Inseparable Data
-* **Non-Linear Transformation:** Used `KernelPCA` with an "rbf" (Radial Basis Function) kernel to project data into a higher-dimensional space where it becomes linearly separable.
-* **Dimensionality Reduction:** Reduced specific numerical features (e.g., 'alcohol', 'pH') down to a single component.
+* **Targeted Reduction:** Applied `KernelPCA` specifically to the 'Open Price' and 'Close Price' columns.
+* **Non-Linear Mapping:** Used an "rbf" (Radial Basis Function) kernel with a gamma of 15 to project these features into a higher-dimensional space for better separability, reducing 2 features into 1 component.
 
 ### 3. Linear Discriminant Analysis (LDA)
-* **Supervised Reduction:** Unlike standard PCA, LDA uses the target variable ('quality') to find component axes that maximize the separation between classes.
-* **Efficiency:** Demonstrated extreme reduction (from 11 features to 1) while maintaining significant class discriminatory power.
+* **Supervised Reduction:** Used 'Stock Index' as the target variable to find component axes that maximize the separation between different index classes.
+* **Extreme Reduction:** Demonstrated the capability to compress **22 features down to just 1 component** while maintaining significant discriminatory power.
+
+### 4. Data Visualization
+* **Comparison:** Generated side-by-side scatter plots to compare the data distribution before and after PCA.
+* **2D Projection:** Projected the high-dimensional scaled data onto 2 components to visually analyze the structure and variance retention.
 
 ---
 
 ## 📂 Data Files Used
 
-* **Dataset:** `winequality-red.csv`
+* **Dataset:** `finance_economics_dataset.csv`
