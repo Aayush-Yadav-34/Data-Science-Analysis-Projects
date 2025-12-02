@@ -10,10 +10,11 @@ Each subdirectory is organized by project topic and contains a Jupyter Notebook,
 
 | ID | Topic | Analysis Focus | Status | Folder |
 | :---: | :--- | :--- | :---: | :---: |
-| **A-01** | **Data Frames & Data Pre-processing** | Reading data from multiple formats (CSV, JSON, SQL) and manipulation fundamentals. | ✅ Completed | [Data Frames and Basic Data Pre-processing](./Data%20%Frames%20%and%20%Basic%20%Data%20%Pre-processing/) |
+| **A-01** | **Data Frames & Data Pre-processing** | Reading data from multiple formats (CSV, JSON, SQL) and manipulation fundamentals. | ✅ Completed | [Data Frames and Basic Data Pre-processing](./Data%20Frames%20and%20Basic%20Data%20Pre-processing/) |
 | **A-02** | **Feature Scaling & Dummification** | Feature scaling (Standardization, Normalization) and Categorical Encoding (One-Hot, Ordinal). | ✅ Completed | [Feature Scaling and Dummification](./Feature%20Scaling%20and%20Dummification/) |
 | **A-03** | **Principal Component Analysis (PCA)** | Dimensionality reduction using PCA & Kernel PCA, and maximizing class separability using LDA. | ✅ Completed | [Principal Component Analysis (PCA)](./Principal%20Component%20Analysis%20(PCA)/) |
 | **A-04** | **Logistic Regression & Decision Tree** | Binary classification, model evaluation (ROC/AUC, Confusion Matrix), and tree pruning. | ✅ Completed | [Logistic Regression and Decision Tree](./Logistic%20Regression%20and%20Decision%20Tree/) |
+| **A-05** | **Data Visualization & Storytelling** | Exploratory Data Analysis (EDA), statistical plotting (Seaborn), and visual storytelling. | ✅ Completed | [Data Visualization and Storytelling](./Data%20Visualization%20and%20Storytelling/) |
 
 ---
 
